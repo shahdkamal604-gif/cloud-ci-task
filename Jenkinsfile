@@ -12,7 +12,7 @@ pipeline {
         stage('Build & Test') {
             steps {
                 // على الماك / لينكس نستخدم sh
-                sh 'mvn -B test'
+                sh '/opt/homebrew/bin/mvn'
             }
         }
     }
