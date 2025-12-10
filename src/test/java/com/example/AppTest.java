@@ -9,6 +9,6 @@ public class AppTest {
     void testAdd() {
         App app = new App();
         int result = app.add(2, 3);
-        assertEquals(5, result, "2 + 3 should equal 5");
+        assertEquals(5, result, "2 + 3 should equal 5 recheck");
     }
 }
